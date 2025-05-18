@@ -77,8 +77,57 @@ public class ExemplosControle {
          int contador = 1;
          while (contador <= 5) {
 
-            System.out.println();
-            
+            System.out.println( contador );
+            contador++; 
          }
+         // se eu nao tenho uma condição de encerramento de loop
+         // eu caio num loop infinito
+
+         // interação = cada passagem pela estrutura do loop
+
+         for(int i = 1; i <= 5; i ++){
+            System.out.println("Valor de i é " + i);
+         }
+
+         // exemplos práticos
+
+         //analise numerica
+         int[] numeros = {1,2,3,4,5,6,7,8,9};
+         int somaPar = 0;
+         int somaImpar = 0;
+
+        // com vou chamar a unidade da lista : lista
+        for(int num : numeros){
+            System.out.println(num);
+            if(num % 2 ==0){
+                somaPar += num;
+            }else{
+                somaImpar += num;
+            }
+            // idedntificar se o numero e multiplo de 3
+            if (num % 3 == 0) {
+                System.out.println("o numero " + num + " é multipl de 3");
+            }
+            if (num > 5 && num < 7) {
+                System.out.println("O número esta entre 5 e 7, " + num);
+        }
+        }
+        System.out.println("Soma pares: " + somaPar);
+        System.out.println("Soma impares: " + somaImpar);
+        
+        //break => ejeta o loop
+        //continue => pular uma execução
+
+        // vars temporarios dos loops, elas podem repetir o nome
+        for( int i = 1; i <= 10; i++){
+            if (i == 2) {
+                continue;
+            }
+            if (i == 5 ) {
+                break;
+            }
+            System.out.println(i);
+        }
+    
     }
 }
