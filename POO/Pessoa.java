@@ -31,6 +31,25 @@ public class Pessoa {
     public String getNome(){
         return this.nome;
     }
-
-
+    //idade
+    public void setIdade(int idade){
+        this.idade = idade;
+    }
+    public int getIdade(){
+        return this.idade;
+    }
+    //altura
+    public void setAltura(double altura){
+        this.altura = altura;
+    }
+    public double getAltura(){
+        return this.altura;
+    }
+    //peso
+    public void setPeso(double peso){
+        this.peso = peso;
+    }
+    public double getPeso(){
+        return this.peso;
+    }
 }
