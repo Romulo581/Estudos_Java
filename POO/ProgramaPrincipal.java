@@ -28,7 +28,12 @@ public class ProgramaPrincipal {
     }
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 //teste de branch
+=======
+// teste 2
+//teste 3
+>>>>>>> Stashed changes
 =======
 // teste 2
 //teste 3
