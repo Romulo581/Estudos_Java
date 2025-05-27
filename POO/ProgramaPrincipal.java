@@ -27,4 +27,9 @@ public class ProgramaPrincipal {
         System.out.println(pessoa2.apresentar());
     }
 }
+<<<<<<< Updated upstream
 //teste de branch
+=======
+// teste 2
+//teste 3
+>>>>>>> Stashed changes
