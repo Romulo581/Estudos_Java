@@ -1,4 +1,4 @@
-public class PhraseOMatic {
+public class Main {
     
     public static void main(String[] args) {
         //Acho que trabalharemos com Arrays
