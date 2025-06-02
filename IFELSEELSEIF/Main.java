@@ -1,7 +1,7 @@
 import java.util.Scanner;
-package IFELSEELSEIF;
 
-public class Main {
+
+public class Calculadora{
     public static void main(String[] args) {
         System.out.println("Verificador de notas");
         System.out.println("Siga as instruções a baixo");
